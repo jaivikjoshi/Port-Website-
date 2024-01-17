@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(208, 207, 203);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.Ja{
+  height: 700px;
+  float: right;
+  margin-top: 88px;
+  margin-right: 200px ;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-self: space-between;
+  padding-left: 40%;
+  padding-right: 10%;
+  position: fixed;
+  top: 0;
+  z-index: 100000;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+li:hover{
+  top: -0.16em;
+  transition: padding .5s, top .35s, box-shadow .4s;
+  box-shadow: 0 0.4rem 0 -0.2rem #0ebac5;
+}
+
+h1{
+  padding-left: 50px;
+  margin-right: 0;
+  padding-right: 0;
+  margin-top: 215px;
+  margin-left: 120px;
+  font-size: 45px;
+}
+
+.About {
+  margin-top: 45px;  
+}
+
+.Projects{
+  margin-top: 45px;
+}
+
+h2{
+  color: rgb(208, 207, 203);
+}
+
+h3{
+  font-size: 30px;
+}
+
+p {
+  line-height: 1.6;
+  text-align: justify;
+  padding-left: 125px;
+  position: relative;
+  float: left;
+  margin-right: 750px;
+}
+
+
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20%;
+  will-change: transform;
+  
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.btn{
+  position: relative;
+  left: 250px;
+}
+
+nav{
+  background-color: rgb(208, 207, 203);
+  padding-right: 600px;
+}
+
+h5{
+  
+  font-size: larger;
+}
+.card{
+  border: 3px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+}
+.project-img{
+  height: 150px;
+  width: 250px;
+}
